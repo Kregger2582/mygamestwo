@@ -44,7 +44,7 @@ public class ZombieBehiavor : MonoBehaviour
 
         if(number == 1)
         {
-            print("CHICKEN ZOMBIE!");
+            
             GetComponent<NavMeshAgent>().speed  = speed * 2;
            
         }
